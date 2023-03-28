@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c444986e.css",
-    "main.js": "/static/js/main.5a9c6934.js",
-    "static/media/mu.JPG": "/static/media/mu.ccb3cfd84b4fa09ddd30.JPG",
-    "static/media/fo.jpg": "/static/media/fo.84852de68efc30e251da.jpg",
-    "static/media/do.JPG": "/static/media/do.769f2c3cbc8f8158bebd.JPG",
-    "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
-    "static/media/Rajdhani-Bold.ttf": "/static/media/Rajdhani-Bold.a5a831c1b8c8eb1b83ff.ttf",
-    "static/media/Rajdhani-SemiBold.ttf": "/static/media/Rajdhani-SemiBold.7d928c2670caba5b9dd6.ttf",
-    "static/media/Rajdhani-Medium.ttf": "/static/media/Rajdhani-Medium.69a9f7bccb45c01931a2.ttf",
-    "static/media/Rajdhani-Light.ttf": "/static/media/Rajdhani-Light.7f948ddb3029f1193092.ttf",
-    "static/media/Rajdhani-Regular.ttf": "/static/media/Rajdhani-Regular.148606c1eb703f6e597a.ttf",
-    "static/media/tr.JPG": "/static/media/tr.8b6e92a07b7159f99e06.JPG",
-    "index.html": "/index.html",
-    "main.c444986e.css.map": "/static/css/main.c444986e.css.map",
-    "main.5a9c6934.js.map": "/static/js/main.5a9c6934.js.map"
+    "main.css": "/Web/static/css/main.9d599407.css",
+    "main.js": "/Web/static/js/main.5d95fdaa.js",
+    "static/media/mu.JPG": "/Web/static/media/mu.ccb3cfd84b4fa09ddd30.JPG",
+    "static/media/fo.jpg": "/Web/static/media/fo.84852de68efc30e251da.jpg",
+    "static/media/do.JPG": "/Web/static/media/do.769f2c3cbc8f8158bebd.JPG",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/Web/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
+    "static/media/Rajdhani-Bold.ttf": "/Web/static/media/Rajdhani-Bold.a5a831c1b8c8eb1b83ff.ttf",
+    "static/media/Rajdhani-SemiBold.ttf": "/Web/static/media/Rajdhani-SemiBold.7d928c2670caba5b9dd6.ttf",
+    "static/media/Rajdhani-Medium.ttf": "/Web/static/media/Rajdhani-Medium.69a9f7bccb45c01931a2.ttf",
+    "static/media/Rajdhani-Light.ttf": "/Web/static/media/Rajdhani-Light.7f948ddb3029f1193092.ttf",
+    "static/media/Rajdhani-Regular.ttf": "/Web/static/media/Rajdhani-Regular.148606c1eb703f6e597a.ttf",
+    "static/media/tr.JPG": "/Web/static/media/tr.8b6e92a07b7159f99e06.JPG",
+    "index.html": "/Web/index.html",
+    "main.9d599407.css.map": "/Web/static/css/main.9d599407.css.map",
+    "main.5d95fdaa.js.map": "/Web/static/js/main.5d95fdaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.c444986e.css",
-    "static/js/main.5a9c6934.js"
+    "static/css/main.9d599407.css",
+    "static/js/main.5d95fdaa.js"
   ]
 }
