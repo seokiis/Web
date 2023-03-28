@@ -9,7 +9,7 @@ function App() {
   return (
     <Fragment>
       <GlobalStyle />
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route exact path="/" element={<About />} />
           <Route path="/project" element={<Project />} />

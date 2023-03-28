@@ -6,6 +6,45 @@ import Dog from "../assets/images/do.JPG";
 import Travel from "../assets/images/tr.JPG";
 import Food from "../assets/images/fo.jpg";
 import Museum from "../assets/images/mu.JPG";
+import { useState, useEffect, useMemo } from "react";
+import DoorImage from "../components/Door";
+import Footer from "../components/Footer";
+
+const Section3 = styled.div`
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  scroll-snap-align: center;
+`;
+
+const Image = styled.img`
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+`;
+
+const Card = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  width: 20%;
+  height: 45%;
+  &:hover {
+    ${Image} {
+      border: 2px solid lightyellow;
+    }
+    transform: scale(1.5);
+    z-index: 1;
+  }
+`;
 
 const Wrapper = styled.div`
   width: 100%;
@@ -29,18 +68,6 @@ const Section2 = styled.div`
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  scroll-snap-align: center;
-`;
-const Section3 = styled.div`
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -72,7 +99,6 @@ const Name = styled.div`
   font-family: "Mont";
   font-weight: 900;
   font-size: 8rem;
-
   color: white;
 `;
 
@@ -111,16 +137,6 @@ const Underline = styled.strong`
   }
 `;
 
-const Card = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-  position: relative;
-  width: 20%;
-  height: 45%;
-`;
-
 const Change = styled.span`
   color: ${(props) => props.color}; //props 활용
 `;
@@ -131,11 +147,6 @@ const ImageDiv = styled.div`
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-`;
-const Image = styled.img`
-  width: 100%;
-  height: 85%;
-  object-fit: cover;
 `;
 
 const Detail = styled.div`
@@ -153,21 +164,61 @@ const InfoDiv = styled.div`
 function About() {
   const [ref, hover] = useHover();
   const [ref1, hover2] = useHover();
+  const [door, setDoor] = useState(false);
 
-  console.log(hover);
+  const txt1 = useMemo(() => {
+    return "SEOKIIS";
+  }, []);
+
+  const txt2 = useMemo(() => {
+    return "PORTFOLIO";
+  }, []);
+
+  const [firstText, setFirstText] = useState("");
+  const [firstCount, setCount] = useState(0);
+
+  const [secondText, setSecondText] = useState("");
+  const [secondCount, setSecondCount] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFirstText(firstText + txt1[firstCount]);
+      setCount(firstCount + 1);
+    }, 200);
+    if (firstCount === txt1.length) {
+      clearInterval(interval); // 문자열 체크를 통해 setInterval을 해제합니다.
+    }
+    return () => clearInterval(interval); // 언마운트시 setInterval을 해제합니다.
+  });
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setSecondText(secondText + txt2[secondCount]);
+      setSecondCount(secondCount + 1);
+    }, 200);
+    if (secondCount === txt2.length) {
+      clearInterval(interval); // 문자열 체크를 통해 setInterval을 해제합니다.
+      setDoor(true);
+    }
+    return () => clearInterval(interval); // 언마운트시 setInterval을 해제합니다.
+  });
+
   return (
     <Wrapper>
       <Section>
         <Navbar></Navbar>
         <Container>
-          <img
-            src="http://leeboa.com/img/sec_img1.png"
-            width="300px"
-            alt="1"
-            height="300px"
-          />
+          <DoorImage visible={door}>
+            {/* {door ? (
+              <img src={Door} width="300px" alt="1" height="300px" />
+            ) : (
+              <div></div>
+            )} */}
+          </DoorImage>
           <Name>
-            SEOKIIS<br></br> PORTFOLIO
+            {firstText}
+            <br />
+            {secondText}
           </Name>
         </Container>
       </Section>
@@ -224,6 +275,7 @@ function About() {
             <Detail>Cook</Detail>
           </Card>
         </ImageDiv>
+        <Footer></Footer>
       </Section3>
     </Wrapper>
   );
