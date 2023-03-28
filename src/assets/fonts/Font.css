@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Rajd_light";
+  src: url("./Rajdhani-Light.ttf");
+}
+
+@font-face {
+  font-family: "Rajd_medium";
+  src: url("./Rajdhani-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Rajd_regular";
+  src: url("./Rajdhani-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Rajd_semibold";
+  src: url("./Rajdhani-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Rajd_bold";
+  src: url("./Rajdhani-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Mont";
+  src: url("./Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Chosunilbo_myungjo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
