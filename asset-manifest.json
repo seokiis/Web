@@ -1,23 +1,37 @@
 {
   "files": {
     "main.css": "/Web/static/css/main.9d599407.css",
-    "main.js": "/Web/static/js/main.c178c7b3.js",
-    "static/media/mu.JPG": "/Web/static/media/mu.ccb3cfd84b4fa09ddd30.JPG",
-    "static/media/fo.jpg": "/Web/static/media/fo.84852de68efc30e251da.jpg",
-    "static/media/do.JPG": "/Web/static/media/do.769f2c3cbc8f8158bebd.JPG",
+    "main.js": "/Web/static/js/main.a139e685.js",
+    "static/media/travel2.jpg": "/Web/static/media/travel2.dfce77e48b0466ce4041.jpg",
+    "static/media/travel4.jpg": "/Web/static/media/travel4.4be1e8bb2b3471a94192.jpg",
+    "static/media/co1.JPG": "/Web/static/media/co1.8522a9ddc6951928f0a2.JPG",
+    "static/media/hoya.png": "/Web/static/media/hoya.b9d1a0f8cf248d7779af.png",
+    "static/media/travel3.JPG": "/Web/static/media/travel3.af15d839a8d530417e65.JPG",
+    "static/media/ex1.JPG": "/Web/static/media/ex1.ccb3cfd84b4fa09ddd30.JPG",
+    "static/media/co4.jpg": "/Web/static/media/co4.84852de68efc30e251da.jpg",
+    "static/media/dog2.JPG": "/Web/static/media/dog2.769f2c3cbc8f8158bebd.JPG",
+    "static/media/dog4.JPG": "/Web/static/media/dog4.917f0a11ed21a615b138.JPG",
     "static/media/Montserrat-VariableFont_wght.ttf": "/Web/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/Rajdhani-Bold.ttf": "/Web/static/media/Rajdhani-Bold.a5a831c1b8c8eb1b83ff.ttf",
+    "static/media/co3.jpg": "/Web/static/media/co3.9b1debe445c6976ecc87.jpg",
     "static/media/Rajdhani-SemiBold.ttf": "/Web/static/media/Rajdhani-SemiBold.7d928c2670caba5b9dd6.ttf",
     "static/media/Rajdhani-Medium.ttf": "/Web/static/media/Rajdhani-Medium.69a9f7bccb45c01931a2.ttf",
     "static/media/Rajdhani-Light.ttf": "/Web/static/media/Rajdhani-Light.7f948ddb3029f1193092.ttf",
     "static/media/Rajdhani-Regular.ttf": "/Web/static/media/Rajdhani-Regular.148606c1eb703f6e597a.ttf",
-    "static/media/tr.JPG": "/Web/static/media/tr.8b6e92a07b7159f99e06.JPG",
+    "static/media/ex4.jpg": "/Web/static/media/ex4.2c60368b257afbf81b34.jpg",
+    "static/media/ex2.JPG": "/Web/static/media/ex2.52dfccc43c9b41b4e137.JPG",
+    "static/media/co2.jpg": "/Web/static/media/co2.f4cf068d9c1a18e52d2c.jpg",
+    "static/media/ex3.jpg": "/Web/static/media/ex3.a6b665ca7b83739afa77.jpg",
+    "static/media/travel1.JPG": "/Web/static/media/travel1.8b6e92a07b7159f99e06.JPG",
+    "static/media/dog1.JPG": "/Web/static/media/dog1.f17f800bb9fd6fe93330.JPG",
+    "static/media/dog3.JPG": "/Web/static/media/dog3.e6c78ced5c0227c9c3dd.JPG",
+    "static/media/QrCode.svg": "/Web/static/media/QrCode.9a732232214c2d98d9e1199ebd9e2734.svg",
     "index.html": "/Web/index.html",
     "main.9d599407.css.map": "/Web/static/css/main.9d599407.css.map",
-    "main.c178c7b3.js.map": "/Web/static/js/main.c178c7b3.js.map"
+    "main.a139e685.js.map": "/Web/static/js/main.a139e685.js.map"
   },
   "entrypoints": [
     "static/css/main.9d599407.css",
-    "static/js/main.c178c7b3.js"
+    "static/js/main.a139e685.js"
   ]
 }
