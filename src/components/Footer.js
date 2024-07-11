@@ -24,7 +24,7 @@ const Footer = () => {
         <Link href="https://github.com/seokiis">
           <FaGithubSquare />
         </Link>
-        <Link href="https://www.instagram.com/">
+        <Link href="https://www.instagram.com/seokiis/">
           <FaInstagram />
         </Link>
         <Link href="mailto:your-email-address">

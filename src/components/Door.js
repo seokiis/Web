@@ -1,4 +1,4 @@
-import Door from "../assets/images/door.png";
+import hoya from "../assets/images/hoya.png";
 import React from "react";
 import styled, { keyframes } from "styled-components";
 
@@ -16,13 +16,19 @@ const Div = styled.div`
   animation-timing-function: ease-out;
   animation-name: ${slideUp};
   animation-fill-mode: forwards;
+  width: 30%;
+`;
+
+const SkeletonUi = styled.div`
+  width: 30%;
+  height: 300px;
 `;
 
 export default function DoorImage({ visible }) {
-  if (!visible) return null;
+  if (!visible) return <SkeletonUi></SkeletonUi>;
   return (
     <Div>
-      <img src={Door} width="300px" alt="1" height="300px" />
+      <img src={hoya} width="100%" alt="1" height="300px" />
     </Div>
   );
 }
