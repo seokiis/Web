@@ -13,60 +13,26 @@ const Title = styled.h1`
   font-weight: bold;
 `;
 
-const Item = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem;
-`;
-
-const Image = styled.img`
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-  margin-bottom: 1rem;
-`;
-
-const Name = styled.h2`
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-`;
-
 const Description = styled.p`
+  margin-top: 2rem;
   font-size: 1.5rem;
-  text-align: center;
 `;
 
 function Learned() {
   return (
     <Container>
       <div>
-        <Title>Portfolio</Title>
-        <Item>
-          <Image
-            src="https://via.placeholder.com/300x200.png?text=Project+1"
-            alt="Project 1"
-          />
-          <Name>Project 1</Name>
-          <Description>Not updated..</Description>
-        </Item>
-        <Item>
-          <Image
-            src="https://via.placeholder.com/300x200.png?text=Project+2"
-            alt="Project 2"
-          />
-          <Name>Project 2</Name>
-          <Description>Not updated..</Description>
-        </Item>
-        <Item>
-          <Image
-            src="https://via.placeholder.com/300x200.png?text=Project+3"
-            alt="Project 3"
-          />
-          <Name>Project 3</Name>
-          <Description>Not updated..</Description>
-        </Item>
+        <Title>만들지 않았습니다. 아래 페이지를 참고하세요.</Title>
+        <Description>
+          <a
+            href="https://seokiis.notion.site/110c6e4c88ff46cfbd9aabe1562f3344?pvs=4
+            "
+            target="_blank"
+            rel="noreferrer"
+          >
+            포트폴리오
+          </a>
+        </Description>
       </div>
     </Container>
   );

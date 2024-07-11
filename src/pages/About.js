@@ -229,7 +229,7 @@ const Text = styled.div`
   width: 10%;
   display: flex;
   justify-content: center;
-  color: white;
+  color: yellowgreen;
 `;
 
 const PictureNextPrevButtonDiv = styled.div`
@@ -333,7 +333,7 @@ const Container = styled.div`
   align-items: center;
   display: flex;
   position: absolute;
-  bottom: 0;
+  bottom: 5rem;
   left: 50%;
   transform: translateX(-50%);
   width: 85%;

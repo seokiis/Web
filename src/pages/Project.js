@@ -22,8 +22,17 @@ function Project() {
   return (
     <Container>
       <div>
-        <Title>About Me</Title>
-        <Description>Not updated..</Description>
+        <Title>만들지 않았습니다. 아래 페이지를 참고하세요.</Title>
+        <Description>
+          <a
+            href="https://seokiis.notion.site/110c6e4c88ff46cfbd9aabe1562f3344?pvs=4
+            "
+            target="_blank"
+            rel="noreferrer"
+          >
+            포트폴리오
+          </a>
+        </Description>
       </div>
     </Container>
   );
